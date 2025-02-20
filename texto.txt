@@ -1,0 +1,70 @@
+#define ledVerde1 13
+#define ledAmarelo1 12
+#define ledVermelho1 11
+
+#define ledVerde2 10
+#define ledAmarelo2 9
+#define ledVermelho2 8
+
+#define tempVerde 3000
+#define tempAmarelo 2000
+#define tempVermelho 5000
+
+#define temp3s 3000
+#define temp2s 2000
+#define temp5s 5000
+
+void setup()
+{
+  pinMode(ledVerde1, OUTPUT);
+  pinMode(ledAmarelo1, OUTPUT);
+  pinMode(ledVermelho1, OUTPUT);
+  pinMode(ledVerde2, OUTPUT);
+  pinMode(ledAmarelo2, OUTPUT);
+  pinMode(ledVermelho2, OUTPUT);
+}
+
+/*void loop()
+{
+  digitalWrite(ledVerde1, HIGH); 
+  delay(tempVerde);
+  digitalWrite(ledVerde1, LOW);
+  
+  digitalWrite(ledAmarelo1, HIGH);
+  delay(tempAmarelo);
+  digitalWrite(ledAmarelo1, LOW);
+  
+  digitalWrite(ledVermelho1, HIGH);
+  delay(tempVermelho);
+  digitalWrite(ledVermelho1, LOW);
+   
+}*/
+
+void loop()
+{
+  digitalWrite(ledVerde1, HIGH);
+  digitalWrite(ledVermelho2, HIGH);
+  digitalWrite(ledVermelho1, LOW);
+  digitalWrite(ledAmarelo2, LOW);
+  
+  delay(temp2s);
+  
+  digitalWrite(ledVerde1, LOW);
+  digitalWrite(ledAmarelo1, HIGH);
+  
+  delay(temp2s);
+  
+  digitalWrite(ledVermelho2, LOW);
+  digitalWrite(ledVerde2, HIGH);
+  digitalWrite(ledAmarelo1, LOW);
+  digitalWrite(ledVermelho1, HIGH);
+  
+  delay(temp3s); 
+  
+  digitalWrite(ledVerde2, LOW);
+  digitalWrite(ledAmarelo2, HIGH);
+  delay(temp2s);
+  
+}
+  
+ 
