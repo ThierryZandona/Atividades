@@ -1,0 +1,173 @@
+/*float peso = 95;
+float altura =1.80;
+float imc = ;*/
+
+/* int temperatura = 35;
+#define led1 13
+
+int bateria = 53;
+
+int numaeroA = 1023;
+int numeroB = 100;
+int resultado = 50
+
+int numPar = 48;
+int resultado2 =0;
+*/
+
+
+//int valor = 50 ;
+
+//String funcionario = "thierry";
+//String cargo = "ferramenteiro";
+//float salario = 556;
+
+//int valor1 = 55;
+//int valor2 =  2;
+
+
+//float nota1 = 7;
+//float nota2 = 8;
+//float nota3 = 6;
+//float nota4 = 8;
+//int resultado = 0;
+
+void setup()
+{
+   pinMode (led1, OUTPUT);
+  
+   Serial.begin(9600);
+  
+  
+   /*imc = peso /(altura*altura);
+     Serial.println(imc);
+  
+   if (imc >= 40){
+     Serial.println("Obesodade 3");
+   
+   }else if (imc < 39.9 & imc > 35 ){
+     Serial.println("Obesodade 2");
+   
+   }else if (imc < 34.9 & imc > 30){
+     Serial.println("Obesodade 1");
+  
+   }else if (imc < 29.9 & imc > 25) {
+      Serial.println("Excesso de peso");
+  
+   }else if (imc < 24.9 & imc >18.5){
+      Serial.println("Peso normal");
+   
+   }else {
+      Serial.println("Abaixo do peso normal");
+  
+   }*/
+  
+  //EXERCICIO 1
+     
+ /*   if (temperatura > 30){
+    digitalWrite(led1, HIGH);
+    }*/
+  
+  //EXERCICIO 2
+  
+    /*if (bateria >= 20 & bateria <= 80){
+    digitalWrite(led1, HIGH);
+    }*/
+  
+  //EXERCICIO 3
+  
+   /* resultado = map(resultado, 0, 1023, 0, 100);
+    Serial.println(resultado);
+    
+    resultado = constrain(resultado, 20, 80);
+    digitalWrite(led1, HIGH);
+    Serial.println(resultado);
+  */
+  
+  //EXERCICIO 4
+  
+/*   resultado2 = (numPar % 2);
+   if(resultado2 == 0){
+   digitalWrite(led1, HIGH);
+   Serial.println("o seu numero e par");
+  */
+  
+  
+  //EXERCICIO 5
+  
+  /*if (valor <0){
+    Serial.println("numero negativo");
+    
+  }else if (valor >=0){
+    Serial.println("numero positivo");
+  }
+  
+  */
+  
+  //EXERCICIO 6
+  
+/*  if(salario<1000){
+    
+    Serial.println(funcionario);
+    Serial.println(cargo);
+    salario = salario *1.1;
+    Serial.println(salario);
+    }
+    */
+  
+  //EXERCICIO 7
+  
+  /*  if (salario <500){
+    salario = salario *1.3;
+    Serial.println(salario);
+    }
+    else if (salario >500){
+    Serial.print("voce nao tem direito ao aumento");
+    }
+    */
+  
+ // EXERCICIO 8
+  
+/*  if (valor1 > valor2){
+  Serial.println(valor1);
+  
+  } else{
+    Serial.println(valor2);
+  
+  }*/
+    
+
+   //EXERCICIO 9 
+  
+  
+ /* resultado = (nota1 + nota2 + nota3 + nota4) /4;
+  Serial.println (resultado);
+  
+  if (resultado >= 7.0){
+    Serial.print("aprovado");
+    
+  }else if (resultado >=5.0 & resultado <=7.0){
+    Serial.print("recuperacao");
+    
+    }*/a
+  
+  
+  
+  
+  }
+  
+  
+   
+ 
+  
+
+    
+  
+  
+  
+    
+
+void loop()
+{
+  
+}
